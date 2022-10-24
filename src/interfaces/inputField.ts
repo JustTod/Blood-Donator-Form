@@ -1,3 +1,6 @@
+import { FieldInputProps } from "formik"
+
 export interface InputFieldProp {
-  label?: string
+  label: string
+  field: FieldInputProps<any>
 }
